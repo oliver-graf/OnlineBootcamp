@@ -1,21 +1,17 @@
 .. _Nutanix_Workshop_Bootcamp:
 
-+--------------------------+------------------------------------------+
-| **Nutanix HCI Workshop** | |C:\Users\Randy\Box                      |
-|                          | Sync\NTNX\graphics\new X logo.png|       |
-+--------------------------+------------------------------------------+
++-------------------------------------------------------------------------+------------+
+|                                                                         |            |                                                                           
+|**Nutanix HCI Workshop**                                                 |   |image0| |
+|                                                                         |            |
++-------------------------------------------------------------------------+------------+
 
-+++++++++++++++++++++++
-\  **Date:**\ 5.11.2020
-+++++++++++++++++++++++
-
-**Resources Nutanix**
+*Resources Nutanix*
 
 Connection instruction
-======================
+----------------------
 
-In order to have the best user experience, we greatly encourage you to
-use **Chrome Web Browser.**
+In order to have the best user experience, we greatly encourage you to use **Chrome Web Browser.**
 
 Everyone participating to this workshop will receive:
 
@@ -30,15 +26,13 @@ Everyone participating to this workshop will receive:
    needed for the workshop, often described as “information given by the
    instructor”. These informations will be :
 
-   -  Prism Central IP Address :
-      `10.55.15.39 <https://urldefense.proofpoint.com/v2/url?u=https-3A__10.55.15.39-3A9440&d=DwMFAg&c=s883GpUCOChKOHiocYtGcg&r=tYbVGbLU7ZV2UMT69Q4bF2pVSH2Qcbx9f9OTXEonz_w&m=Jxiu-qkE299Zifpcf30qBR2Xj2hdvrG2vX4iN3_TDmE&s=H3FqYM8pUoft-4vLsEupBcBTTTQZ1-TMyAlnzJ3a64w&e=>`__
+   -  Prism Central IP Address : **in your HPOC document**
 
    -  Prism Central username : **admin**
 
    -  Prism Central Password : **nx2Tech123!**
 
-   -  Active Directory Name Server IP Addresses : 1\ **0.55.15.45 and
-      10.55.15.46**
+   -  Active Directory Name Server IP Addresses : 1\ **0.55.15.45 and 10.55.15.46**
 
    -  Active Directory Domain Name : **RTP-POC015.nutanix.local**
 
@@ -290,7 +284,8 @@ some specific features, such as compression, deduplication, etc…
 
 ..
 
-   |image6|\ In order to simplify the process to add VirtIO driver, we
+.. note:: 
+   In order to simplify the process to add VirtIO driver, we
    will add a secondary CD-ROM, mapping the VirtIO drivers ISO. Another
    way would be to have only one CD-ROM drive and change the mounted
    Windows 2016 ISO file during guest operating system installation by
@@ -498,9 +493,9 @@ create a share folder
 
 -  Select SMB
 
-..
+.. note::
 
-   |image8|\ You can see that we support multi-protocol access for a
+   You can see that we support multi-protocol access for a
    given share, which could be done by configuring NFS at the File
    Server level. You’ll then be able to check the “Enable multiprotocol
    access for NFS”. The opposite is true as well.
@@ -567,7 +562,7 @@ the File Server
 
 -  You should see all operation done for a given time slot
 
-|image9|
+|image8|
 
 [ALL] Connect your cluster to Prism Central
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -599,7 +594,7 @@ hypervisor, location, from the same interface :
 Once the status is OK, you’ll then be able to manage this cluster, as
 any other cluster, from a central management console.
 
-|image10|
+|image8|
 
 [ALL] Scale out the cluster → Add a fourth node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -618,9 +613,9 @@ the cluster, without any downtime, neither impact on the performance.
 
 -  Check the IP address already populated / Next / Expand cluster
 
-..
+.. note::
 
-   |image11|\ If the newly detected node wouldn’t run the same
+   If the newly detected node wouldn’t run the same
    hypervisor, Nutanix will use the hypervisor image to image the newly
    added to the same hypervisor version as the one which are already
    part of the cluster.
@@ -648,9 +643,9 @@ software without downtime, neither impact on the performance.
    due when the master Prism service node is moving to another node, due
    to the upgrade.
 
-..
+.. note::
 
-   |image12|\ Hypervisor 1-click-upgrade, Nutanix Files Upgrade, LCM
+   Hypervisor 1-click-upgrade, Nutanix Files Upgrade, LCM
    upgrade, Karbon Upgrade, etc… are managed the same way, with the same
    simplicity, without any downtime.
 
@@ -672,20 +667,24 @@ software without downtime, neither impact on the performance.
 -  **Map your source container**\ (s) with your distant cluster
    container(s)
 
-..
+.. note::
 
-   |image13|\ By mapping the network and container between the 2 sites,
+   By mapping the network and container between the 2 sites,
    this is how Nutanix will now decide on which distant container, and
    on which network the VM should be placed if you decide to migrate it
    to the second cluster, as well as in case of DR. Nutanix Leap,
    managed by Prism Central, allow you to be more granular, VM specific
    and managed centrally through policy.
 
-   |image14|\ It’s even possible to replicate between VMware and AHV, in
+.. note::
+
+   It’s even possible to replicate between VMware and AHV, in
    both directions. This feature is called Cross-Hypervisor DR, and is
    included with all Nutanix versions.
 
-   |image15|\ If you’d like to replicate to a public Cloud as Azure or
+.. note::
+
+   If you’d like to replicate to a public Cloud as Azure or
    AWS, when clicking on “+ Remote Site”, select Cloud instead of
    Physical cluster. Once the cloud credentials are provided, you’ll be
    able to replicate your snapshots externally.
@@ -715,9 +714,11 @@ software without downtime, neither impact on the performance.
 
 -  Click on “close”
 
-|image16|\ For demo purpose and in order to not wait for the next
-schedule, we will do a manual snapshot, and replicate it on the second
-site.
+.. note::
+
+ For demo purpose and in order to not wait for the next
+ schedule, we will do a manual snapshot, and replicate it on the second
+ site.
 
 -  Select your newly created protection domain / take snapshot
 
@@ -755,9 +756,11 @@ site.
 -  Take some minutes to analyze the information page, and the “Causes &
    Resolutions» column. Do the same for several checks.
 
-|image17|\ By clicking on the reference link of the check, it will bring
-you to an up-to-date version of a knowledge base which will help you to
-fix the issue.
+.. note::
+
+ By clicking on the reference link of the check, it will bring
+ you to an up-to-date version of a knowledge base which will help you to
+ fix the issue.
 
 [ALL] Analysis 
 ~~~~~~~~~~~~~~
@@ -790,9 +793,9 @@ fix the issue.
 
 -  You see your 2 newly created charts in the charts list.
 
-..
+.. note::
 
-   |image18|\ All the entity and metric charts available here are
+   All the entity and metric charts available here are
    available on Prism Central as well). From Prism Central, you’ll be
    able to retrieve all metrics from all clusters, generate / schedule
    reports and send them by email under PDF or CSV format.
@@ -850,7 +853,7 @@ cluster,** which will take care of the operation
       done, as in real DR scenario, the source cluster won’t be
       available.
 
-.. |C:\Users\Randy\Box Sync\NTNX\graphics\new X logo.png| image:: media/image1.png
+.. |image0| image:: media/image1.png
    :width: 1.09839in
    :height: 0.73958in
 .. |image1| image:: media/image2.png
@@ -874,36 +877,6 @@ cluster,** which will take care of the operation
 .. |image7| image:: media/image8.png
    :width: 7.5in
    :height: 1.93056in
-.. |image8| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image9| image:: media/image9.png
-   :width: 7.5in
-   :height: 3.80556in
-.. |image10| image:: media/image10.png
-   :width: 5in
-   :height: 2.21875in
-.. |image11| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image12| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image13| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image14| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image15| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image16| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image17| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
-.. |image18| image:: media/image7.png
+.. |image8| image:: media/image9.png
    :width: 0.2874in
    :height: 0.2874in
