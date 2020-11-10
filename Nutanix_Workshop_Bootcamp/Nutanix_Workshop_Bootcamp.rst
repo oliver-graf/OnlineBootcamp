@@ -9,7 +9,7 @@
 *Resources Nutanix*
 
 Connection instruction
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 In order to have the best user experience, we greatly encourage you to use **Chrome Web Browser.**
 
@@ -41,7 +41,7 @@ Everyone participating to this workshop will receive:
    -  Active Directory Password : **nx2Tech123!**
 
 Connect to the Nutanix Frame Hosted Desktop
--------------------------------------------
+
 
 In order to manage the Nutanix environment, you’ll need to access your
 Jumphost. To do so, use the Chrome Web browser, go to this address :
@@ -61,10 +61,12 @@ screenshot
 |image2|
 
 Image Repository
-----------------
+~~~~~~~~~~~~~~~~
 
 All ISO file needed for this HPOC can be found at this address :
 http://10.42.194.11/images/ (PHX) or http://10.55.251.38/images (RTP)
+
+..
 
 You’ll be able to access it from the Jumphost Chrome browser, and then
 copy the URL of the needed ISO file. As the content of this repository
@@ -72,7 +74,7 @@ is often updated, some minor changes can be seen regarding folder name
 or file name.
 
 POC Guidance
-============
+~~~~~~~~~~~~
 
 |image3|
 
@@ -103,8 +105,8 @@ comfortable to work with both options.
 As a reminder, please use **Google Chrome** within the VDI Jumphost for
 the entire workshop.
 
-[ALL]Getting started with the Prism interface
-=============================================
+[ALL] Getting started with the Prism interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 -  To connect to the Prism interface, log on to the cluster IP address
@@ -125,7 +127,7 @@ need to upload the OS installation ISO file to Prism Element (shortened
 by PE).
 
 [ALL] HPOC Workaround
-=====================
+~~~~~~~~~~~~~~~~~~~~~
 
 As we used a customer deployed Active Directory for this LAB, which is
 in a different network, not known by our global DNS server, we need to
@@ -139,7 +141,7 @@ enter a new DNS Server entry on PE. Please proceed as below:
    instructor
 
 [AHV] Add an ISO image file to Prism Element
-============================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In order to manage an ISO file to install guest OS, ISO file should be
 uploaded to PE (Prism Element), to quickly use it when you want ot
@@ -157,13 +159,12 @@ from there. In this lab, we’ll do the full guest os installation setup.
    top-right. Go to settings / general / image configuration
 
 3. Click on + Upload Image, provide a name, Images container, and
-   provide the source Image URL as below, **change the Image Type to
-   ISO**. Put a name like Windows 2016 ISO.
+   provide the source Image URL as below, **change the Image Type to ISO**. 
+   Put a name like Windows 2016 ISO.
 
 ..
 
-   **\***\* There is a small cosmetic bug, you need to change the image
-   type to ISO once you’ve entered an URL \**\***
+   **There is a small cosmetic bug, you need to change the image type to ISO once you’ve entered an URL**
 
 4. Do the step 1 to 3 for the **Centos 7** ISO file as well. Once done,
    you can continue to the next exercise even if the image upload is
@@ -387,7 +388,7 @@ some specific features, such as compression, deduplication, etc…
 [ALL] Nutanix Files 
 ~~~~~~~~~~~~~~~~~~~
 
-|image7|
+|image6|
 
 Now that you have deployed a Windows VM, let’s deploy a Nutanix Files
 cluster, to provide a high available File Services (SMB and NFS), as
@@ -562,7 +563,7 @@ the File Server
 
 -  You should see all operation done for a given time slot
 
-|image8|
+|image7|
 
 [ALL] Connect your cluster to Prism Central
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -872,11 +873,11 @@ cluster,** which will take care of the operation
    :width: 4.38542in
    :height: 3.90625in
 .. |image6| image:: media/image7.png
-   :width: 0.2874in
-   :height: 0.2874in
+   :width: 6.8874in
+   :height: 1.82874in
 .. |image7| image:: media/image8.png
    :width: 7.5in
-   :height: 1.93056in
+   :height: 2.93056in
 .. |image8| image:: media/image9.png
    :width: 0.2874in
    :height: 0.2874in
