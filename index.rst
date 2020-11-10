@@ -7,7 +7,7 @@
 .. toctree::
   :maxdepth: 2
   :caption: workshop
-  :name: _workshop
+  :name: _Nutanix_Workshop_Bootcamp_2020
   :hidden:
 
 
