@@ -10,6 +10,7 @@
   :name: _Nutanix_Workshop_Bootcamp
   :hidden:
 
+  Nutanix_Workshop_Bootcamp/Nutanix_Workshop_Bootcamp
 
 
 
