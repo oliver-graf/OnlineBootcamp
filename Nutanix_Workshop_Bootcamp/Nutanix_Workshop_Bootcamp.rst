@@ -832,7 +832,7 @@ which will take care of the operation
 -  In order to move the VM back to the initial cluster, execute the same
    operation, in the opposite direction.
 
-[All] DR simulation
+[ALL] DR simulation
 ~~~~~~~~~~~~~~~~~~~
 
 As in a DR situation, the source cluster wouldn't be available, this
