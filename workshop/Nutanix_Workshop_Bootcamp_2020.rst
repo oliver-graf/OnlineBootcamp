@@ -3,9 +3,9 @@
 |                          | Sync\NTNX\graphics\new X logo.png|       |
 +--------------------------+------------------------------------------+
 
-======================
+=======================
 \  **Date:**\ 5.11.2020
-======================
+=======================
 
 **Resources Nutanix**
 
@@ -107,8 +107,8 @@ comfortable to work with both options.
 As a reminder, please use **Google Chrome** within the VDI Jumphost for
 the entire workshop.
 
-[ALL] Getting started with the Prism interface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Getting started with the Prism interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  To connect to the Prism interface, log on to the cluster IP address
    or to the IP address of one of the CVM controllers. You can find your
