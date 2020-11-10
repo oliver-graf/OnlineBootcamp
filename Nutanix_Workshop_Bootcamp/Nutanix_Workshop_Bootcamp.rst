@@ -3,9 +3,9 @@
 |                          | Sync\NTNX\graphics\new X logo.png|       |
 +--------------------------+------------------------------------------+
 
-=======================
++++++++++++++++++++++++
 \  **Date:**\ 5.11.2020
-=======================
++++++++++++++++++++++++
 
 **Resources Nutanix**
 
@@ -107,8 +107,8 @@ comfortable to work with both options.
 As a reminder, please use **Google Chrome** within the VDI Jumphost for
 the entire workshop.
 
-Getting started with the Prism interface
-========================================
+[ALL]Getting started with the Prism interface
+=============================================
 
 
 -  To connect to the Prism interface, log on to the cluster IP address
@@ -129,7 +129,7 @@ need to upload the OS installation ISO file to Prism Element (shortened
 by PE).
 
 [ALL] HPOC Workaround
-~~~~~~~~~~~~~~~~~~~~~
+=====================
 
 As we used a customer deployed Active Directory for this LAB, which is
 in a different network, not known by our global DNS server, we need to
@@ -143,7 +143,7 @@ enter a new DNS Server entry on PE. Please proceed as below:
    instructor
 
 [AHV] Add an ISO image file to Prism Element
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================================
 
 In order to manage an ISO file to install guest OS, ISO file should be
 uploaded to PE (Prism Element), to quickly use it when you want ot
