@@ -1,3 +1,5 @@
+.. _Nutanix_Workshop_Bootcamp:
+
 +--------------------------+------------------------------------------+
 | **Nutanix HCI Workshop** | |C:\Users\Randy\Box                      |
 |                          | Sync\NTNX\graphics\new X logo.png|       |
