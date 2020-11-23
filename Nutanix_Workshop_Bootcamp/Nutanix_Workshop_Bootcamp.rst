@@ -129,7 +129,7 @@ need to upload the OS installation ISO file to Prism Element (shortened
 by PE).
 
 HPOC Workaround
-=====================
+===============
 
 As we used a customer deployed Active Directory for this LAB, which is
 in a different network, not known by our global DNS server, we need to
@@ -165,6 +165,7 @@ from there. In this lab, we’ll do the full guest os installation setup.
 
 ..
 
+.. note::
    **There is a small cosmetic bug, you need to change the image type to ISO once you’ve entered an URL**
 
 4. Do the step 1 to 3 for the **Centos 7** ISO file as well. Once done,
