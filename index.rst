@@ -6,7 +6,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Nutanix_Workshop_Bootcamp
+  :caption: Nutanix Workshop Bootcamp
   :name: _Nutanix_Workshop_Bootcamp
   :hidden:
 
