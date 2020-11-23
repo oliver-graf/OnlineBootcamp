@@ -12,7 +12,7 @@
 
   Nutanix_Workshop_Bootcamp/Nutanix_Workshop_Bootcamp
 
-
+|image9|
 
 Welcome to the Nutanix Online Workshop! This workshop may accompany an instructor-led session that introduces Nutanix Core technologies and many common management tasks.
 You will explore Prism Element and become familiar with its features and navigation. You will use Prism to perform basic cluster administration tasks, including storage and networking. 
@@ -20,3 +20,6 @@ You will also walk through basic VM deployment and management tasks with Prism a
 The instructor explains the exercises and answers any additional questions that you may have.
 
 At the end of the bootcamp, attendees should understand the Core concepts and technologies that make up the Nutanix Enterprise Cloud stack.
+
+
+.. |image9| image:: Nutanix_Workshop_Bootcamp/media/Nutanix_color.png
