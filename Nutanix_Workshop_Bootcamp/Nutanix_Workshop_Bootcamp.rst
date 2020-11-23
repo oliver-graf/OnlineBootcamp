@@ -111,7 +111,11 @@ Getting started with the Prism interface
       or to the IP address of one of the CVM controllers. You can find your
       cluster IP address in the Lab information document close to the top
 
+|
+
    -  |image4|
+
+|
 
    -  Once connected with the username / password provided below the IP
       address (use the Prism UI credentials), click on "Home" on the
