@@ -104,7 +104,7 @@ comfortable to work with both options.
 As a reminder, please use **Google Chrome** within the VDI Jumphost for
 the entire workshop.
 
-[ALL] Getting started with the Prism interface
+Getting started with the Prism interface
 ==============================================
 
 
@@ -125,7 +125,7 @@ In order to be able to install an OS into a newly deployed VM, we will
 need to upload the OS installation ISO file to Prism Element (shortened
 by PE).
 
-[ALL] HPOC Workaround
+HPOC Workaround
 =====================
 
 As we used a customer deployed Active Directory for this LAB, which is
@@ -168,7 +168,7 @@ from there. In this lab, we’ll do the full guest os installation setup.
    you can continue to the next exercise even if the image upload is
    still ongoing.
 
-[ALL] Create a container
+Create a container
 ========================
 
 Container is a logical segmentation, on which you can enable / disable
@@ -383,7 +383,7 @@ some specific features, such as compression, deduplication, etc…
 
    -  Update
 
-[ALL] Nutanix Files 
+Nutanix Files 
 ===================
 
 |image6|
@@ -476,7 +476,7 @@ clusters…
 
 -  Click Deploy
 
-[ALL] Creating a Nutanix Files Shares
+Creating a Nutanix Files Shares
 =====================================
 
 In order to access you share from the freshly deployed Windows VM, we’ll
@@ -563,7 +563,7 @@ the File Server
 
 |image7|
 
-[ALL] Connect your cluster to Prism Central
+Connect your cluster to Prism Central
 ===========================================
 
 In order to manage every Nutanix cluster from a central interface, you
@@ -595,7 +595,7 @@ any other cluster, from a central management console.
 
 |image8|
 
-[ALL] Scale out the cluster → Add a fourth node
+Scale out the cluster → Add a fourth node
 ===============================================
 
 This action will show you how easy it is to add or remove a node from
@@ -623,7 +623,7 @@ the cluster, without any downtime, neither impact on the performance.
    home section, and check the space as done before. You should see more
    space than previously.
 
-[ALL] Acropolis (AOS) update
+Acropolis (AOS) update
 ============================
 
 This action will show you how easy it is to upgrade the Acropolis
@@ -648,7 +648,7 @@ software without downtime, neither impact on the performance.
    upgrade, Karbon Upgrade, etc… are managed the same way, with the same
    simplicity, without any downtime.
 
-[ALL] Nutanix Cluster Peering
+Nutanix Cluster Peering
 =============================
 
 -  Go to section “Data Protection” / Table / Async DR
@@ -688,7 +688,7 @@ software without downtime, neither impact on the performance.
    Physical cluster. Once the cloud credentials are provided, you’ll be
    able to replicate your snapshots externally.
 
-[ALL] Local snapshot and Async DR replication
+Local snapshot and Async DR replication
 =============================================
 
 -  Go to section “Data Protection” / Table / Async DR
@@ -735,7 +735,7 @@ software without downtime, neither impact on the performance.
 
    -  Etc.
 
-[ALL] Execute a check of the infrastructure with NCC Check 
+Execute a check of the infrastructure with NCC Check 
 ==========================================================
 
 -  Go to the section “Health”
@@ -761,7 +761,7 @@ software without downtime, neither impact on the performance.
  you to an up-to-date version of a knowledge base which will help you to
  fix the issue.
 
-[ALL] Analysis 
+Analysis 
 ==============
 
 -  Go to the section “Analysis”
@@ -830,7 +830,7 @@ which will take care of the operation
 -  In order to move the VM back to the initial cluster, execute the same
    operation, in the opposite direction.
 
-[ALL] DR simulation
+DR simulation
 ===================
 
 As in a DR situation, the source cluster wouldn't be available, this
