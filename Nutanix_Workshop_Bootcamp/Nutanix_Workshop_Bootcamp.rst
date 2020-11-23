@@ -1,21 +1,24 @@
 .. _Nutanix_Workshop_Bootcamp:
 
-+-------------------------------------------------------------------------+------------+
-|                                                                         |            |                                                                           
-|**Nutanix HCI Workshop**                                                 |   |image0| |
-|                                                                         |            |
-+-------------------------------------------------------------------------+------------+
+.. role::   raw-html(raw)
+      :format: html
+
++-------------------------------------------------------------------------+
+|                                                                         |                                                                    
+|  |image9|                                                               |
+|                                                                         |
++-------------------------------------------------------------------------+
 
 *Resources Nutanix*
 
 Connection instruction
-~~~~~~~~~~~~~~~~~~~~~~
+######################
 
-In order to have the best user experience, we greatly encourage you to use **Chrome Web Browser.**
+In order to have the best user experience, we greatly encourage you to use the **Chrome Web Browser.**
 
 Everyone participating to this workshop will receive:
 
--  | Nutanix Labs Reservation document.
+-  | **Nutanix Labs Reservation document.**
    | In the **LAB_DOCUMENT.DOC** file you’ll find your POC number and
      all personnel information related to your **HPOC**. Please remember
      to write down your POC number. Each time you’ll see POCxxx in this
@@ -26,28 +29,30 @@ Everyone participating to this workshop will receive:
    needed for the workshop, often described as “information given by the
    instructor”. These informations will be :
 
-   -  Prism Central IP Address : **in your HPOC document**
++-------------------------------------------------+---------------------------------+
+| Prism Central IP Address                        | **in your HPOC document**       |
++-------------------------------------------------+---------------------------------+
+| Prism Central username                          | **admin**                       |
++-------------------------------------------------+---------------------------------+
+| Prism Central Password                          | **nx2Tech123!**                 |
++-------------------------------------------------+---------------------------------+
+| Active Directory Name Server IP Addresses       | **10.55.15.45 and 10.55.15.46** |
++-------------------------------------------------+---------------------------------+
+| Active Directory Domain Name                    | **RTP-POC015.nutanix.local**    |
++-------------------------------------------------+---------------------------------+   
+| Active Directory Username                       | **administrator**               |
++-------------------------------------------------+---------------------------------+   
+| Active Directory Password                       | **nx2Tech123!**                 |
++-------------------------------------------------+---------------------------------+   
 
-   -  Prism Central username : **admin**
-
-   -  Prism Central Password : **nx2Tech123!**
-
-   -  Active Directory Name Server IP Addresses : 1\ **0.55.15.45 and 10.55.15.46**
-
-   -  Active Directory Domain Name : **RTP-POC015.nutanix.local**
-
-   -  Active Directory Username : **administrator**
-
-   -  Active Directory Password : **nx2Tech123!**
-
-Connect to the Nutanix Frame Hosted Desktop
+**Connect to the Nutanix Frame Hosted Desktop**
 
 
 In order to manage the Nutanix environment, you’ll need to access your
 Jumphost. To do so, use the Chrome Web browser, go to this address :
-https://frame.nutanix.com/x/labs/
+**https://frame.nutanix.com/x/labs/**
 
-In the middle of the Nutanix Labs Reservation document, you’ll find an
+In the middle of the Nutanix Labs Reservation document, you’ll find a
 VDI username and password, to connect to the Jumphost. Please take one
 of the following, corresponding to your HPOC. See below an exemple :
 
@@ -61,7 +66,7 @@ screenshot
 |image2|
 
 Image Repository
-~~~~~~~~~~~~~~~~
+================
 
 All ISO file needed for this HPOC can be found at this address :
 http://10.42.194.11/images/ (PHX) or http://10.55.251.38/images (RTP)
@@ -74,7 +79,7 @@ is often updated, some minor changes can be seen regarding folder name
 or file name.
 
 POC Guidance
-~~~~~~~~~~~~
+============
 
 |image3|
 
@@ -83,19 +88,13 @@ Prism Central, which will allow you to manage multiple Nutanix Clusters
 from the same interface, and the majority of the Nutanix Product
 ecosystem such as :
 
--  Nutanix AHV
-
--  Nutanix Karbon
-
--  Nutanix Calm
-
--  Nutanix Object
-
--  Nutanix Flow
-
--  Nutanix Leap
-
--  ….
+   -  Nutanix **AHV**
+   -  Nutanix **Karbon**
+   -  Nutanix **Calm**
+   -  Nutanix **Object**
+   -  Nutanix **Flow**
+   -  Nutanix **Leap**
+   -  ….
 
 But we still have the possibility to manage some specific settings at
 Prism Element level (mainly related to HCI configuration, and Nutanix
@@ -106,18 +105,18 @@ As a reminder, please use **Google Chrome** within the VDI Jumphost for
 the entire workshop.
 
 [ALL] Getting started with the Prism interface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==============================================
 
 
--  To connect to the Prism interface, log on to the cluster IP address
-   or to the IP address of one of the CVM controllers. You can find your
-   cluster IP address in the Lab information document close to the top
+   -  To connect to the Prism interface, log on to the cluster IP address
+      or to the IP address of one of the CVM controllers. You can find your
+      cluster IP address in the Lab information document close to the top
 
--  |image4|
+   -  |image4|
 
--  Once connected with the username / password provided below the IP
-   address (use the Prism UI credentials), click on "Home" on the
-   top-left menu, and then look through each section.
+   -  Once connected with the username / password provided below the IP
+      address (use the Prism UI credentials), click on "Home" on the
+      top-left menu, and then look through each section.
 
 Please remember your POC number is easily identifiable on the top-left
 section of the Prism console.
@@ -127,24 +126,23 @@ need to upload the OS installation ISO file to Prism Element (shortened
 by PE).
 
 [ALL] HPOC Workaround
-~~~~~~~~~~~~~~~~~~~~~
+=====================
 
 As we used a customer deployed Active Directory for this LAB, which is
 in a different network, not known by our global DNS server, we need to
 enter a new DNS Server entry on PE. Please proceed as below:
 
--  Click on the Gear icon on the top right / Name Server
+   -  Click on the Gear icon on the top right / Name Server
 
--  Delete the existing DNS entry
+   -  Delete the existing DNS entry
 
--  Add the two Active Directory Name Server IP addresses given by the
-   instructor
+   -  Add the two Active Directory Name Server IP addresses given by the instructor
 
 [AHV] Add an ISO image file to Prism Element
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================================
 
 In order to manage an ISO file to install guest OS, ISO file should be
-uploaded to PE (Prism Element), to quickly use it when you want ot
+uploaded to PE (Prism Element), to quickly use it when you want to
 install a guest OS. It allows you to have a central repository
 available. Once connected to Prism Central, these images can be managed
 from there. In this lab, we’ll do the full guest os installation setup.
@@ -171,7 +169,7 @@ from there. In this lab, we’ll do the full guest os installation setup.
    still ongoing.
 
 [ALL] Create a container
-~~~~~~~~~~~~~~~~~~~~~~~~
+========================
 
 Container is a logical segmentation, on which you can enable / disable
 some specific features, such as compression, deduplication, etc…
@@ -195,7 +193,7 @@ some specific features, such as compression, deduplication, etc…
 -  You’ll see your container appearing on the container table list.
 
 [AHV] Network creation
-~~~~~~~~~~~~~~~~~~~~~~
+======================
 
 -  Go to the section “VM”
 
@@ -247,7 +245,7 @@ some specific features, such as compression, deduplication, etc…
    cluster.
 
 [AHV] VM creation
-~~~~~~~~~~~~~~~~~
+=================
 
 -  Go to the section “VM”
 
@@ -386,7 +384,7 @@ some specific features, such as compression, deduplication, etc…
    -  Update
 
 [ALL] Nutanix Files 
-~~~~~~~~~~~~~~~~~~~
+===================
 
 |image6|
 
@@ -459,7 +457,7 @@ The File server will be automatically deployed and joined to the Active
 Directory. It will take around 12 minutes.
 
 [AHV] Nutanix Files Analytics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
 
 By the time Nutanix Files is deployed, let’s deploy Nutanix Files
 Analytics, to have a clear view about what’s going on your Nutanix Files
@@ -479,7 +477,7 @@ clusters…
 -  Click Deploy
 
 [ALL] Creating a Nutanix Files Shares
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=====================================
 
 In order to access you share from the freshly deployed Windows VM, we’ll
 create a share folder
@@ -509,7 +507,7 @@ create a share folder
 .. _ahv-nutanix-files-analytics-1:
 
 [AHV] Nutanix Files Analytics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
 
 Once Nutanix Files Analytics is deployed, you can finish the setup, to
 provide the permissions to this new service.
@@ -566,7 +564,7 @@ the File Server
 |image7|
 
 [ALL] Connect your cluster to Prism Central
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===========================================
 
 In order to manage every Nutanix cluster from a central interface, you
 can connect your cluster to a Nutanix Prism Central already deployed
@@ -598,7 +596,7 @@ any other cluster, from a central management console.
 |image8|
 
 [ALL] Scale out the cluster → Add a fourth node
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===============================================
 
 This action will show you how easy it is to add or remove a node from
 the cluster, without any downtime, neither impact on the performance.
@@ -626,7 +624,7 @@ the cluster, without any downtime, neither impact on the performance.
    space than previously.
 
 [ALL] Acropolis (AOS) update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================
 
 This action will show you how easy it is to upgrade the Acropolis
 software without downtime, neither impact on the performance.
@@ -651,7 +649,7 @@ software without downtime, neither impact on the performance.
    simplicity, without any downtime.
 
 [ALL] Nutanix Cluster Peering
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
 
 -  Go to section “Data Protection” / Table / Async DR
 
@@ -691,7 +689,7 @@ software without downtime, neither impact on the performance.
    able to replicate your snapshots externally.
 
 [ALL] Local snapshot and Async DR replication
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================================
 
 -  Go to section “Data Protection” / Table / Async DR
 
@@ -738,7 +736,7 @@ software without downtime, neither impact on the performance.
    -  Etc.
 
 [ALL] Execute a check of the infrastructure with NCC Check 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================================================
 
 -  Go to the section “Health”
 
@@ -764,7 +762,7 @@ software without downtime, neither impact on the performance.
  fix the issue.
 
 [ALL] Analysis 
-~~~~~~~~~~~~~~
+==============
 
 -  Go to the section “Analysis”
 
@@ -802,7 +800,7 @@ software without downtime, neither impact on the performance.
    reports and send them by email under PDF or CSV format.
 
 [AHV] Cross cluster migration / [VMware] Cross Hypervisor Migration and DR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================================================================
 
 As a migration of a VM from one cluster to another is a planned
 operation, this one should be executed **from the source cluster,**
@@ -833,7 +831,7 @@ which will take care of the operation
    operation, in the opposite direction.
 
 [ALL] DR simulation
-~~~~~~~~~~~~~~~~~~~
+===================
 
 As in a DR situation, the source cluster wouldn't be available, this
 operation should be executed **from the destination (surviving)
@@ -881,3 +879,4 @@ cluster,** which will take care of the operation
 .. |image8| image:: media/image9.png
    :width: 0.2874in
    :height: 0.2874in
+.. |image9| image:: media/Nutanix_color.png
