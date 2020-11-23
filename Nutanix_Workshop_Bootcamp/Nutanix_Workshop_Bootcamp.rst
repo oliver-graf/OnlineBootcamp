@@ -68,8 +68,8 @@ screenshot
 Image Repository
 ================
 
-All ISO file needed for this HPOC can be found at this address :
-http://10.42.194.11/images/ (PHX) or http://10.55.251.38/images (RTP)
+| All ISO file needed for this HPOC can be found at this address :
+| http://10.42.194.11/images/ (PHX) or http://10.55.251.38/images (RTP)
 
 ..
 
