@@ -105,8 +105,7 @@ As a reminder, please use **Google Chrome** within the VDI Jumphost for
 the entire workshop.
 
 Getting started with the Prism interface
-==============================================
-
+========================================
 
    -  To connect to the Prism interface, log on to the cluster IP address
       or to the IP address of one of the CVM controllers. You can find your
@@ -138,8 +137,8 @@ enter a new DNS Server entry on PE. Please proceed as below:
 
    -  Add the two Active Directory Name Server IP addresses given by the instructor
 
-[AHV] Add an ISO image file to Prism Element
-============================================
+Add an ISO image file to Prism Element
+======================================
 
 In order to manage an ISO file to install guest OS, ISO file should be
 uploaded to PE (Prism Element), to quickly use it when you want to
@@ -169,7 +168,7 @@ from there. In this lab, we’ll do the full guest os installation setup.
    still ongoing.
 
 Create a container
-========================
+==================
 
 Container is a logical segmentation, on which you can enable / disable
 some specific features, such as compression, deduplication, etc…
@@ -192,8 +191,8 @@ some specific features, such as compression, deduplication, etc…
 
 -  You’ll see your container appearing on the container table list.
 
-[AHV] Network creation
-======================
+Network creation
+================
 
 -  Go to the section “VM”
 
@@ -244,8 +243,8 @@ some specific features, such as compression, deduplication, etc…
    existing node, as well as on any newly node you’ll add to the
    cluster.
 
-[AHV] VM creation
-=================
+VM creation
+===========
 
 -  Go to the section “VM”
 
@@ -384,7 +383,7 @@ some specific features, such as compression, deduplication, etc…
    -  Update
 
 Nutanix Files 
-===================
+=============
 
 |image6|
 
@@ -456,8 +455,8 @@ easily manageable as AHV, AOS, etc…
 The File server will be automatically deployed and joined to the Active
 Directory. It will take around 12 minutes.
 
-[AHV] Nutanix Files Analytics
-=============================
+Nutanix Files Analytics
+=======================
 
 By the time Nutanix Files is deployed, let’s deploy Nutanix Files
 Analytics, to have a clear view about what’s going on your Nutanix Files
@@ -477,7 +476,7 @@ clusters…
 -  Click Deploy
 
 Creating a Nutanix Files Shares
-=====================================
+===============================
 
 In order to access you share from the freshly deployed Windows VM, we’ll
 create a share folder
@@ -506,8 +505,8 @@ create a share folder
 
 .. _ahv-nutanix-files-analytics-1:
 
-[AHV] Nutanix Files Analytics
-=============================
+Nutanix Files Analytics
+=======================
 
 Once Nutanix Files Analytics is deployed, you can finish the setup, to
 provide the permissions to this new service.
@@ -564,7 +563,7 @@ the File Server
 |image7|
 
 Connect your cluster to Prism Central
-===========================================
+=====================================
 
 In order to manage every Nutanix cluster from a central interface, you
 can connect your cluster to a Nutanix Prism Central already deployed
@@ -596,7 +595,7 @@ any other cluster, from a central management console.
 |image8|
 
 Scale out the cluster → Add a fourth node
-===============================================
+=========================================
 
 This action will show you how easy it is to add or remove a node from
 the cluster, without any downtime, neither impact on the performance.
@@ -624,7 +623,7 @@ the cluster, without any downtime, neither impact on the performance.
    space than previously.
 
 Acropolis (AOS) update
-============================
+======================
 
 This action will show you how easy it is to upgrade the Acropolis
 software without downtime, neither impact on the performance.
@@ -649,7 +648,7 @@ software without downtime, neither impact on the performance.
    simplicity, without any downtime.
 
 Nutanix Cluster Peering
-=============================
+=======================
 
 -  Go to section “Data Protection” / Table / Async DR
 
@@ -689,7 +688,7 @@ Nutanix Cluster Peering
    able to replicate your snapshots externally.
 
 Local snapshot and Async DR replication
-=============================================
+=======================================
 
 -  Go to section “Data Protection” / Table / Async DR
 
@@ -736,7 +735,7 @@ Local snapshot and Async DR replication
    -  Etc.
 
 Execute a check of the infrastructure with NCC Check 
-==========================================================
+====================================================
 
 -  Go to the section “Health”
 
@@ -762,7 +761,7 @@ Execute a check of the infrastructure with NCC Check
  fix the issue.
 
 Analysis 
-==============
+========
 
 -  Go to the section “Analysis”
 
@@ -799,8 +798,8 @@ Analysis
    able to retrieve all metrics from all clusters, generate / schedule
    reports and send them by email under PDF or CSV format.
 
-[AHV] Cross cluster migration / [VMware] Cross Hypervisor Migration and DR
-==========================================================================
+Cross cluster migration / [VMware] Cross Hypervisor Migration and DR
+====================================================================
 
 As a migration of a VM from one cluster to another is a planned
 operation, this one should be executed **from the source cluster,**
@@ -831,7 +830,7 @@ which will take care of the operation
    operation, in the opposite direction.
 
 DR simulation
-===================
+=============
 
 As in a DR situation, the source cluster wouldn't be available, this
 operation should be executed **from the destination (surviving)
