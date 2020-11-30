@@ -265,7 +265,7 @@ VM creation
 
    -  VM Name: POCxxx-WIN2016 *(example* POC096-WIN2016)
 
-   -  vCPUs: 2
+   -  vCPUs: 4
 
    -  Core: 2
 
