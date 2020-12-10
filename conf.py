@@ -17,7 +17,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Core Bootcamp'
-copyright = 'Nutanix Swizerland'
+copyright = 'Nutanix Switzerland'
 author = 'Oliver Graf'
 
 
