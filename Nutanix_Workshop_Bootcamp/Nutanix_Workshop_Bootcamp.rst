@@ -357,6 +357,8 @@ VM creation
    -  Finish the Windows installation and log you in.
 
    -  Reduce the console, we will come back to it soon.
+   
+   -  Go to the Windows VM and click Update. Ejects both CDROMs.
 
 -  On the VM Table, click on Manage Guest Tools and check
 
