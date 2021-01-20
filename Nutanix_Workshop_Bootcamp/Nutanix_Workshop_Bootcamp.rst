@@ -12,7 +12,7 @@
 *Resources Nutanix*
 
 Connection instruction
-######################
+========================================
 
 In order to have the best user experience, we greatly encourage you to use the **Chrome Web Browser.**
 
@@ -25,7 +25,7 @@ Everyone participating to this workshop will receive:
      document, you’ll have to **replace** the information with your POC
      information. In this example, it would be PHX-POC215
 
--  **The common information** **(COMMON_LAB_INFO.DOC)** shared resources
+-  **The common information** **(This Web Guide)** shared resources
    needed for the workshop, often described as “information given by the
    instructor”. These informations will be :
 
