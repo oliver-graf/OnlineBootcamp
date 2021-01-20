@@ -370,12 +370,9 @@ VM creation
 
    -  Volume Snapshot Service / Application Consistent Snapshots (VSS)
 
-   -  *If requested, select to unmount the already mounted ISO file
-      prior clicking on save*
-
 -  Go back to the console of the Windows VM and install the mounted
    Nutanix Guest Tool (named NGT) by going to the mounted CD-ROM / Run
-   setup.exe. Once the NGT are installed, close the VM Console.
+   setup.exe. When NGT ist installed go to the next step.
 
 -  Add the VM to the Active directory, with the instruction given by the
    Instructor.
