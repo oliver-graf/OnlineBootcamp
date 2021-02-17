@@ -30,15 +30,15 @@ Everyone participating to this workshop will receive:
    instructor”. These informations will be :
 
 +-------------------------------------------------+---------------------------------+
-| Prism Central IP Address                        | **in your HPOC document**       |
+| Prism Central IP Address                        | **10.55.75.39**                 |
 +-------------------------------------------------+---------------------------------+
 | Prism Central username                          | **admin**                       |
 +-------------------------------------------------+---------------------------------+
 | Prism Central Password                          | **nx2Tech123!**                 |
 +-------------------------------------------------+---------------------------------+
-| Active Directory Name Server IP Addresses       | **10.55.15.45 and 10.55.15.46** |
+| Active Directory Name Server IP Addresses       | **10.55.75.45 and 10.55.75.46** |
 +-------------------------------------------------+---------------------------------+
-| Active Directory Domain Name                    | **RTP-POC015.nutanix.local**    |
+| Active Directory Domain Name                    | **RTP-POC075.nutanix.local**    |
 +-------------------------------------------------+---------------------------------+   
 | Active Directory Username                       | **administrator**               |
 +-------------------------------------------------+---------------------------------+   
